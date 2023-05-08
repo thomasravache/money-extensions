@@ -10,3 +10,14 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
+# Passos a serem executados:
+
+    steps:
+    - uses: actions/checkout@main # fazer um checkout da branch main
+
+    - name: Set up .Net Core
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: '6.0.x' # instalando sdk do dotnet
+    
