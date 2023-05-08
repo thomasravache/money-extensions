@@ -1,0 +1,12 @@
+name: Build and deploy package
+
+on:
+  push:
+    branches:
+      - main # --> Significa que os deploys ocorreram ao ter algum push na branch main (PR, etc)
+
+# Falando que será subida uma máquina ubuntu pra gerar o build e deploy
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
