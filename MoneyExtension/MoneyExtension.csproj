@@ -6,4 +6,23 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PackageId>MoneyExtensionThomas</PackageId>
+  <Version>1.0.0</Version>
+  <License>MIT</License>
+  <Authors>Thomas Ravache</Authors>
+  <Company>thtomt</Company>
+  <PackageDescription>Extension to convert decimal to integer</PackageDescription>
+  <Description>Extension to convert decimal to integer</Description>
+  <RepositoryUrl>https://github.com/thomas-ravache/MoneyExtension</RepositoryUrl>
+  <PackageProjectUrl>https://github.com/thomas-ravache/MoneyExtension</PackageProjectUrl>
+  <PackageLicenseExpression>MIT</PackageListenExceptiorn>
+  <!-- <PackageIcon></PackageIcon> -->
+  <PackageTags>Losers;Domain;Notification</PackageTags>
+  <ReleaseNotes>colocar status deploys</ReleaseNotes>
+  <Title>MoneyExtensionThomas</Title>
+  <Summary>Usado para conversão de dólares em cents</Summary>
+
+  <ItemGroup>
+    <None Include="..\Media\Icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
 </Project>
