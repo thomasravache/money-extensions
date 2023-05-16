@@ -29,3 +29,6 @@ jobs:
 
     - name: Create the Package # criando pacote
       run: dotnet pack --configuration Release
+
+    - name: Publish # publica o pacote para o Nuget
+      run: dotnet nuget push "MoneyExtensionStudy/bin/Release/*.nupkg" -k ${{ secrets.NUGET_TOKEN }} -s https://api.nuget.org/v3/index.json
